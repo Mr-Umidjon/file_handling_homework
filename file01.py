@@ -6,9 +6,8 @@ def main(data:str):
     Returns:
         list: return answer
     """
-    f = open(data, 'r')
     res = []
-    for i in f.read():
+    for i in data:
         if i.isdigit():
             res.append(int(i))
     return res
