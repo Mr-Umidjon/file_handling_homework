@@ -12,4 +12,8 @@ def main(data: str):
             res.append(i)
     return res
 
+
 # Read data from file
+f = open('txt_file/data03.txt', 'r')
+
+print(main(f.read()))
