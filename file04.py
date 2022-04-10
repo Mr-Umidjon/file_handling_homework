@@ -14,5 +14,5 @@ def main(data: str):
 
 
 # Read data from file
-f = open("txt_file\data04.txt", 'r')
+f = open('txt_file/data04.txt', 'r')
 print(main(f.read()))
